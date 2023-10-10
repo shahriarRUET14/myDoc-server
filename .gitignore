@@ -1,0 +1,56 @@
+# Compiled Java classes
+target/
+bin/
+out/
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+.mvn/
+*.log
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# Logs
+*.log
+
+# Spring Boot Devtools
+.restart*
+
+# Test-generated files
+test-output/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Local application properties
+application-local.yml
+
+# Log files
+log/
+
+# IntelliJ IDEA-specific
+.idea/
+
+# Eclipse-specific
+.classpath
+.project
+.settings/
+
+# NetBeans-specific
+nbproject/
