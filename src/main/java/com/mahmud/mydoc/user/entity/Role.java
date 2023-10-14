@@ -1,6 +1,6 @@
 package com.mahmud.mydoc.user.entity;
 
-
+import com.mahmud.mydoc.user.enums.RoleName;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -20,8 +20,9 @@ public class Role {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Enumerated(EnumType.STRING)
     @Column(nullable = false, unique = true)
-    private String name;
+    private RoleName name;
 
     @ManyToMany(mappedBy = "roles")
     private List<User> users;

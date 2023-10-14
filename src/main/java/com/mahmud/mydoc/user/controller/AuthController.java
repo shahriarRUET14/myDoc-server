@@ -4,6 +4,7 @@ import com.mahmud.mydoc.user.dto.LoginDto;
 import com.mahmud.mydoc.user.dto.SignUpDto;
 import com.mahmud.mydoc.user.entity.Role;
 import com.mahmud.mydoc.user.entity.User;
+import com.mahmud.mydoc.user.enums.RoleName;
 import com.mahmud.mydoc.user.repository.RoleRepository;
 import com.mahmud.mydoc.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -59,7 +60,7 @@ public class AuthController {
         user.setEmail(signUpDto.getEmail());
         user.setPassword(passwordEncoder.encode(signUpDto.getPassword()));
 
-        Role roles = roleRepository.findByName("ROLE_ADMIN").get();
+        Role roles = roleRepository.findByName(String.valueOf(RoleName.GENERAL)).get();
         user.setRoles(Collections.singleton(roles));
 
         userRepository.save(user);
