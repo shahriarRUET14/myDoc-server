@@ -1,6 +1,6 @@
-package com.mahmud.mydoc.repository;
+package com.mahmud.mydoc.user.repository;
 
-import com.mahmud.mydoc.entity.User;
+import com.mahmud.mydoc.user.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

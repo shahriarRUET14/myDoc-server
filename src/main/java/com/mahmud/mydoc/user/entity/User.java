@@ -1,4 +1,4 @@
-package com.mahmud.mydoc.entity;
+package com.mahmud.mydoc.user.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

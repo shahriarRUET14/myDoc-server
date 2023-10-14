@@ -1,4 +1,4 @@
-package com.mahmud.mydoc.dto;
+package com.mahmud.mydoc.user.dto;
 
 import lombok.Data;
 

@@ -1,7 +1,7 @@
-package com.mahmud.mydoc.service;
+package com.mahmud.mydoc.user.service;
 
-import com.mahmud.mydoc.entity.User;
-import com.mahmud.mydoc.repository.UserRepository;
+import com.mahmud.mydoc.user.entity.User;
+import com.mahmud.mydoc.user.repository.UserRepository;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

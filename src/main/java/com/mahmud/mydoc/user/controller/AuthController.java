@@ -1,11 +1,11 @@
-package com.mahmud.mydoc.controller;
+package com.mahmud.mydoc.user.controller;
 
-import com.mahmud.mydoc.dto.LoginDto;
-import com.mahmud.mydoc.dto.SignUpDto;
-import com.mahmud.mydoc.entity.Role;
-import com.mahmud.mydoc.entity.User;
-import com.mahmud.mydoc.repository.RoleRepository;
-import com.mahmud.mydoc.repository.UserRepository;
+import com.mahmud.mydoc.user.dto.LoginDto;
+import com.mahmud.mydoc.user.dto.SignUpDto;
+import com.mahmud.mydoc.user.entity.Role;
+import com.mahmud.mydoc.user.entity.User;
+import com.mahmud.mydoc.user.repository.RoleRepository;
+import com.mahmud.mydoc.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -39,7 +39,7 @@ test-output/
 *.ear
 
 # Local application properties
-application-local.yml
+#application-local.yml
 
 # Log files
 log/
